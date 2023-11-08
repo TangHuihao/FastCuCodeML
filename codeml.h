@@ -15,7 +15,7 @@
 //#define STREAM
 //#define SSE
 //#define CUDA
-#define __CUDA_ARCH__  75
+// #define __CUDA_ARCH__  75
 
 
 #define NP            (NBRANCH*2+NGENE-1+2+NCODE+2)
@@ -46,13 +46,13 @@ struct common_info {
    double freqK[NCATG], rK[NCATG], MK[NCATG*NCATG],daa[20*20], *conP, *fhK;
    double (*plfun)(double x[],int np);
    double hyperpar[4]; /* kostas, the hyperparameters for the prior distribution of distance & omega */
-   double omega_fix;  /* fix the last w in the NSbranchB, NSbranch2 models 
+   double omega_fix;  /* fix the last w in the NSbranchB, NSbranch2 models
           for lineages.  Useful for testing whether w>1 for some lineages. */
    int     conPSiteClass; /* conPSiteClass=0 if (method==0) and =1 if (method==1)?? */
    int     NnodeScale;
    char   *nodeScale;        /* nScale[ns-1] for interior nodes */
    double *nodeScaleF;       /* nScaleF[npatt] for scale factors */
-  /* pomega & pkappa are used to communicate between SetParameters & ConditionalPNode 
+  /* pomega & pkappa are used to communicate between SetParameters & ConditionalPNode
      & eigenQcodon.  Try to remove them? */
    double *pomega, pkappa[5], *ppi;
 };
@@ -115,7 +115,7 @@ extern "C" {
 //struct common_info com;
 //struct TREEB tree;
 //struct TREEN* nodes, ** gnodes, nodes_t[2 * NS - 1];
-// 
+//
 //extern struct common_info com;
 //extern struct TREEB tree;
 //extern struct TREEN *nodes;
