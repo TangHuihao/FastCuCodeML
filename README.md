@@ -22,4 +22,4 @@ step 3:
 
 Then run the program with the following command: `your-path/FastCuCodeML`
 
-We have test this package in Windows10 using Visual Studio and Ubuntu 18.04 LTS
+We have tested this package in Windows10 using Visual Studio and Ubuntu 18.04 LTS
