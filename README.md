@@ -1,7 +1,7 @@
 # FastCuCodeML
-<<<<<<< HEAD
+
 This package is an optimization version of CuCodeML
-=======
+----
 Instructions for compiling
 
 you need install CUDA first
@@ -10,4 +10,3 @@ you need install CUDA first
 2. $cc -DCUDA -DSSE -O3 -funroll-loops -fomit-frame-pointer -c tools.c
 3. $cc -DCUDA -DSSE -O3 -funroll-loops -fomit-frame-pointer -c codeml.c
 4.
->>>>>>> e8b010b2c0f12079f17d345cb679fc501e62ac46
