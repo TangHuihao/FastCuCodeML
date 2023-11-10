@@ -10,7 +10,8 @@ step 1:
 ```bash
     your_nvcc_localation -arch=sm_75 -DCUDA -DSINGLE_GPU_ID=0 -O3 -c cuda-codeml.cu
 ```
-  this was mine RTX2070 sm arch(sm_75) and you need change based on your GPU
+	this was mine RTX2070 sm arch(sm_75) and you need change based on your GPU
+
 step 2:
 ```bash
     cc -DCUDA -DSSE -O3 -funroll-loops -fomit-frame-pointer -c tools.c
