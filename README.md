@@ -2,13 +2,13 @@
 
 This package is an optimization version of CuCodeML
 ----
-Instructions for compiling using Ubuntu 18.04
+Instructions for compiling in Ubuntu 18.04
 
 you need install CUDA first
 
 step 1:
 ```bash
-    your_nvcc_localation -arch=sm_75 -DCUDA -DSINGLE_GPU_ID=0 -O3 -c cuda-codeml.cu
+    your_nvcc_localation/nvcc -arch=sm_75 -DCUDA -DSINGLE_GPU_ID=0 -O3 -c cuda-codeml.cu
 ```
 this was mine RTX2070 sm arch(sm_75) and you need change based on your GPU
 
