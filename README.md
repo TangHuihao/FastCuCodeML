@@ -1,2 +1,2 @@
 # FastCuCodeML
-An optimization version of CuCodeML
+This package is an optimization version of CuCodeML
