@@ -1,6 +1,6 @@
 # FastCuCodeML
 
-This package is an optimization version of CuCodeML
+This package is an speed optimization version of CuCodeML(https://github.com/rmingming/CuCodeML)
 ----
 Instructions for compiling in Ubuntu 18.04
 
