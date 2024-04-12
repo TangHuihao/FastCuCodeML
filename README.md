@@ -29,5 +29,9 @@ Then run the program with the following command: `your-path/FastCuCodeML`
 
 We have tested this package in Windows10 using Visual Studio and Ubuntu 18.04 LTS
 
+![image](https://github.com/TangHuihao/FastCuCodeML/assets/36500513/c1c1d8de-e33e-4d1d-86ab-0043d1cf48df)
+Speed test comparing to CuCodeML
+----
+
 不想写README了反正也没有人看得到
 ----
