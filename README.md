@@ -1,6 +1,7 @@
 # FastCuCodeML
 
-This package is an speed optimization version of CuCodeML(https://github.com/rmingming/CuCodeML)
+This package is an speed optimization version of CuCodeML (https://github.com/rmingming/CuCodeML)
+The source code was written by Ziheng Yang (https://github.com/abacus-gene/paml)
 ----
 Instructions for compiling in Ubuntu 18.04
 
