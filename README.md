@@ -33,5 +33,3 @@ We have tested this package in Windows10 using Visual Studio and Ubuntu 18.04 LT
 Speed test comparing to CuCodeML
 ----
 
-不想写README了反正也没有人看得到
-----
